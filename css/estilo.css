@@ -1,0 +1,642 @@
+
+@font-face {
+    font-family: 'Houstiny';
+    src: url('../fonts/Houstiny.ttf') format('truetype');
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'RobotoMonoThin';
+    src: url('../fonts/RobotoMono-Thin.ttf') format('truetype');
+    font-display: swap;
+  }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    overflow-x: hidden
+}
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    overflow-x: hidden
+   
+  }
+  
+    /*header 1 */
+  .header1 {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background-image: url('../imagenesnovios/main.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center -5%; /* Mueve la imagen hacia arriba para recortar abajo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Houstiny', sans-serif;
+    overflow-x: hidden; /* extra por si acaso */
+  }
+  .contenidoHeader {
+    transform: translateY(205px); /* lo baja 50px desde el centro */
+  }
+
+    /* Linea separadora */
+  .lineaSeparadora {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0;
+  }
+
+  /* Informacion del evento */
+  .informacionEvento {
+    margin: 3rem auto;
+    max-width: 100%; /* Ajustar al ancho completo */
+    padding: 2rem;
+    border-radius: 15px;
+    color: #333;
+    font-family: 'RobotoMonoThin', monospace;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: center;
+    height: auto;
+}
+
+.fechaEvento {
+  margin: 3rem auto;
+  font-size: 1.9rem;
+  margin-bottom: 3rem;
+  font-family: 'Houstiny', sans-serif;
+  height: auto;
+  white-space: nowrap; /* Evitar que el texto se recorte */
+  line-height: 2; /* Ajusta el valor según sea necesario */
+}
+  
+  /* Program */
+
+
+.program-shed {
+  position: relative;
+  margin-top: -300px;
+  margin-bottom: -300px;
+  height: auto;
+  width: 100%;
+  transform: scale(0.35); /* Escala el tamaño al 150% */
+  font-family: 'RobotoMonoThin', monospace;
+  font-weight: bold;
+}
+.program-title {
+  
+  margin-top: 10px;
+  font-family: "Houstiny";
+  font-size: 30px;
+  text-align: center;
+  color: #090909;
+  padding: 10px;
+  line-height: 2; /* Ajusta el valor según sea necesario */
+}
+.dot {
+  margin-top: 130px;
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  background-color: #000;
+  margin-left: auto;
+  margin-right: auto;
+}
+.dot2 {
+  margin-top: -2px;
+}
+.line {
+  width: 3px;
+  height: 1200px;
+  background-color: #000;
+  margin-left: auto;
+  margin-right: auto;
+}
+.we-do {
+  position: absolute;
+  top: 160px;
+  margin-left: 232px;
+
+  height: 10px;
+  width: 262px;
+/*    background-color: #000;*/
+border-top: 2px #000 solid;
+}
+.we-do-0{
+  right: 50%;
+}
+.we-do-1 {
+  position: absolute;
+  top: 697px;
+  right: 50%;
+
+  height: 10px;
+  width: 262px;
+/*    background-color: #000;*/
+border-top: 2px #000 solid;
+}
+.we-do-2 {
+  position: absolute;
+  top: 430px;
+
+  margin-left: 50%;
+
+  height: 10px;
+  width: 262px;
+/*    background-color: #000;*/
+border-top: 2px #000 solid;
+}
+.we-do-3 {
+  position: absolute;
+  top: 955px;
+  margin-left: 50%;
+
+  height: 10px;
+  width: 262px;
+/*    background-color: #000;*/
+border-top: 2px #000 solid;
+}
+.we-do-4 {
+  position: absolute;
+  top: 1270px;
+  right: 50%;
+
+  height: 10px;
+  width: 262px;
+/*    background-color: #000;*/
+border-top: 2px #000 solid;
+}
+.we-do-title {
+  font-size: 30px;
+  margin-top: -84px;
+  margin-left: -2px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.we-do-title2 {
+  margin-top: -62px;
+  margin-left: 30px;
+  text-align: center;
+}
+.we-do-title3 {
+  margin-top: -84px;
+  margin-left: 10px;
+  text-align: center;
+}
+.we-do-sub {
+  font-size: 30px;
+  margin-top: 60px;
+  margin-left: 2px;
+  text-align: center;
+}
+.we-do-sub2 {
+  text-align: center;
+  margin-top: 9px;
+  margin-left: 34px;
+}
+.we-do-time {
+  font-size: 55px;
+  margin-top: -136px;
+  margin-left: -184px;
+
+}
+.we-do-time2 {
+  margin-top: -118px;
+  margin-left: 278px;
+}
+.we-do-image {
+  width: 100px;
+  margin-top: -111px;
+  margin-left: 314px;
+}
+.we-do-image1 {
+  top: 7px;
+  margin-left: 4px;
+  position: absolute;
+}
+.we-do-image2 {
+  /* top: -9px; */
+  margin-left: -143px;
+  position: absolute;
+}
+.program-vetka-img {
+  width: 273px;
+  margin-right: 100px;
+  margin-top: -268px;
+}
+  
+
+/* como llegar */
+.comoLlegar {
+    margin: 3rem auto;
+    max-width: 100%; /* Ajustar al ancho completo */
+  
+    text-align: center;
+    height: auto;
+}
+.comollegartitulo {
+  font-family: 'Houstiny', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  line-height: 2; /* Ajusta el valor según sea necesario */
+}
+.content {
+  display: none; /* o 'none' si se oculta inicialmente */
+  font-family: 'RobotoMonoThin', monospace;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+ 
+}
+img.imagen-destacada {
+  display: inline-block;
+  margin-right: 10px;
+  /* Agrega un margen entre las imágenes */
+  border: 1px solid grey;
+  /* Agrega un borde negro de 2 píxeles */
+  border-radius: 10px;
+  /* Agrega un borde redondeado */
+  width: 70px;
+  /* Ajusta el ancho de la imagen */
+  padding: 5px;
+  /* Ajusta el relleno para separar el borde negro de la imagen */
+}
+
+img.imagen-destacada.selected {
+  border-color: black;
+  /* Cambia el color del borde a gris */
+  filter: grayscale(100%);
+  border: 2px solid black;
+}
+
+.arrow-left,
+.arrow-right {
+  font-size: 24px;
+  cursor: pointer;
+  position: relative;
+  top: -20px; /* Valor negativo las sube */
+  display: inline-block;
+  width: 20px;
+  height: 30px;
+}
+
+/* cuenta atras */
+
+.date {
+  background-image: url(../imagenesnovios/cuentaatras.jpeg);
+  background-size: cover;
+  margin-top: 50px;
+  position: relative;
+    width: 100%;
+    height: 80vh;
+}
+
+.date-title {
+  padding-top: 90px;
+  height: 1200px;
+  font-family: "Houstiny";
+  font-size: 38px;
+  text-align: center;
+  color: #fff;
+}
+.count {
+  display: flex;
+  justify-content: center;
+}
+
+.timer-block {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700; /* MUCHO más grueso */
+  text-align: center;
+  border-right: 2px solid #ffffff;
+  padding: 16px 28px;
+  position: relative;
+  top: -650px;
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.timer-block:last-child {
+  border-right: 0;
+}
+
+.timer-block span {
+  font-size: 28px;
+  font-weight: 500; /* números aún más potentes */
+}
+/* telegram */
+
+.telegram {
+  margin-top: 100px;
+  font-family: 'RobotoMonoThin', monospace;
+  font-size: 14px;
+  text-align: center;
+
+}
+.titulotelegram {
+  font-family: 'Houstiny', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  line-height: 2; /* Ajusta el valor según sea necesario */
+}
+
+/* Fotos con reflexion 01 */
+
+.reflexion {
+  margin-top: 100px;
+  position: relative;
+}
+.reflexiontexto {
+  font-family: 'RobotoMonoThin', monospace;
+
+  font-size: 12px;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+  
+}
+.reflexionimagen {
+  margin-top: 100px;
+}
+.num-photo1 {
+  position: relative;
+}
+.num-img1 {
+  width: 70%;
+  position: absolute;
+  right: 30px;
+  top: 0px;
+  float: right;
+
+  z-index: 1;
+}
+.num-photo2 {
+  position: relative;
+}
+.num-img2 {
+  right: 35%;
+  width: 60%;
+  position: absolute;
+  top: 195px;
+  float: left;
+
+  z-index: 2;
+}
+
+
+/* Formulario */
+
+
+.formulario {
+  padding: 0 20px;
+  margin-top: 800px;
+  font-family: 'RobotoMonoThin', monospace;
+  font-size: 14px;
+}
+
+.formulariotitulo {
+  margin-top: 150px;
+  font-family: "Houstiny";
+  font-size: 25px;
+  text-align: center;
+  color: #000;
+  line-height: 3;
+  
+}
+
+.form-input {
+  width: 100%;
+  font-size: 14px;
+  
+  padding-left: 10px;
+  padding-bottom: 5px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #000000;
+  border-radius: 0px;
+  font-family: 'RobotoMonoThin', monospace;
+  box-shadow: none;
+  
+  
+}
+
+
+.input-holder {
+  margin-bottom: 75px;
+
+  display: flex;
+  justify-content: center;
+  
+}
+
+.red-form {
+  margin-top: 50px;
+  font-family: 'RobotoMonoThin', monospace;
+}
+
+.confirm-title {
+  font-weight: 300;
+  font-size: 14px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.confirm-radio {
+  margin-bottom: 15px;
+}
+
+.confirm-radio label {
+  margin-left: 15px;
+  font-weight: 100;
+  
+}
+
+.radio-btn {
+  outline: none;
+  padding-right: 15px;
+
+}
+
+.questions-title {
+  font-weight: 300;
+  font-size: 14px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+.quest-holder {
+  margin-top: 40px;
+}
+
+.food-title {
+  font-weight: 300;
+  font-size: 14px;
+  margin-bottom: 42px;
+}
+.btn {
+  font-size: 14px;
+  padding: 20px 100px;
+  font-family: 'RobotoMonoThin', monospace;
+  font-weight: bold;
+  border: 1px solid #191919;
+  border-radius: 130px;
+  background-color: #fff;
+
+  text-decoration: none;
+  color: #000;
+}
+
+.button {
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 90px;
+}
+.custom-radio {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.custom-radio+label::before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 50%;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+
+
+.custom-radio:checked+label::before {
+  border-color: #161719;
+  background-color: #000000;
+}
+
+
+/* Contacto */
+.contactotitulo {
+  font-family: 'Houstiny', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  line-height: 2; /* Ajusta el valor según sea necesario */
+}
+.contactotexto {
+  
+  text-align: center;
+  font-family: 'RobotoMonoThin', monospace;
+  font-size: 20px;
+  line-height: 2; /* Ajusta el valor según sea necesario */
+  margin-top: 35px;
+  margin-bottom: 120px;
+}
+
+
+/* Regalos Cuenta bancaria */
+
+.regalostexto {
+  font-family: 'RobotoMonoThin', monospace;
+  font-size: 15px;
+  text-align: center;
+  line-height: 2; /* Ajusta el valor según sea necesario */
+  margin-top: 60px;
+  
+}
+
+/* Footer */
+.footer {
+  font-family: 'RobotoMonoThin', monospace;
+  font-size: 15px;
+  text-align: center;
+  line-height: 2; /* Ajusta el valor según sea necesario */
+  margin-top: 60px;
+  
+}
+
+.footernombres {
+  font-family: 'Houstiny', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 80px;
+  line-height: 2; /* Ajusta el valor según sea necesario */
+}
+
+/* Estilos del popup */
+#popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+#popup-content {
+  background-color: white;
+  font-family: 'RobotoMonoThin', monospace;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+#popup-content button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 1px solid #000000;;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+#popup-content button:hover {
+  opacity: 0.9;
+}
+
+#popup-content .yes {
+  background-color: #4caf4f00;
+  color: rgb(0, 0, 0);
+}
+
+#popup-content .no {
+  background-color: #f4433600;
+  color: rgb(0, 0, 0);
+}

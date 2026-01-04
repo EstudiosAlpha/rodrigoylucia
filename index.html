@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <title>Patricia y Jesús</title>
+  <!-- Enlace a tu hoja de estilos -->
+  <link rel="stylesheet" href="./css/estilo.css"> 
+  <!-- Animacion con scroll -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> 
+</head>
+<body>
+
+<!-- Musica -->
+<div id="popup">
+    <div id="popup-content">
+      <p>¿Quieres seguir con la música?</p>
+      <button class="yes" onclick="playMusic()">Sí</button>
+      <button class="no" onclick="closePopup()">No</button>
+    </div>
+  </div>
+  
+  <audio id="background-music" loop>
+    <source src="./musica/play.mp3" type="audio/mpeg">
+    Tu navegador no soporta el elemento de audio.
+  </audio>
+
+  <!-- Header 1 Foto de fondo mas nombres -->
+  <div class="header1">
+    <div data-aos="fade-down" data-aos-duration="3000">
+      <div class="contenidoHeader">Rodrigo y Lucía<br><br>
+      <img src="./img/flecha.png" height="18px" width="20px" alt="Flecha"></div>
+    </div>
+  </div>
+  
+<!-- Linea separadora de contenido -->
+ <div class="lineaSeparadora">
+  <div data-aos="fade-down" data-aos-duration="1000">
+    <img class="imageCapa" src="./img/line.png" alt="" style="width: 250px; height: auto;">
+  </div>
+</div>
+
+
+<!-- Informacion del evento -->
+<div class="informacionEvento">
+  <div data-aos="fade-down">
+      <p>Estamos a nada de serlo todo</p>
+  </div>
+  <div data-aos="fade-down" class="fechaEvento">
+   30 de mayo 2026
+  </div>
+  <div data-aos="fade-down" style="font-size: 0.9rem;">
+   Queremos que paséis un día<br> especial con nosotros.<br> La ceremonia tendrá lugar en
+      el<br><b>Iglesia de San Francisco y San Eulogio<br></b>a las 18:30<br> La celebración será en<br>
+      <b>Hacienda Timoteo<br></b>
+  </div>
+</div>
+
+
+<!-- Programa -->
+<div class="program">
+  <div data-aos="fade-up" class="program-title">
+      <div>
+          <p>Programa</p>
+      </div>
+  </div>
+  <div class="program-shed">
+      <div data-aos="fade-up" class="line"></div>
+      <div data-aos="fade-right" class="we-do we-do-0">
+          <div data-aos="fade-right">
+              <div class="we-do-title">
+                  <div>
+                      <p>"Si Quiero"</p>
+                  </div>
+              </div>
+
+              <div class="we-do-sub">
+                  <div>
+                      <p>Ceremonia</p>
+                  </div>
+              </div>
+              <div class="we-do-time">
+                  <div>
+                      <p>18:30</p>
+                  </div>
+              </div>
+          </div>
+          <div data-aos="fade-left" class="we-do-img">
+              <img class='we-do-image' src="./img/ring.svg" alt="">
+          </div>
+      </div>
+      <div data-aos="fade-left" class="we-do we-do-2">
+          <div data-aos="fade-left">
+              <div class="we-do-title we-do-title2">
+                  <div>
+                      <p>CHIN CHIN</p>
+                  </div>
+              </div>
+              <div class="we-do-sub we-do-sub2">
+                  <div>
+                      <br><p>Aperitivo</p>
+                  </div>
+              </div>
+              <div class="we-do-time we-do-time2">
+                  <div>
+                      <p>21:00</p>
+                  </div>
+              </div>
+          </div>
+          <div data-aos="fade-right" class="we-do-img">
+              <img class='we-do-image we-do-image2' src="./img/rumka.svg" alt="">
+          </div>
+      </div>
+      <div data-aos="fade-right" class="we-do we-do-1">
+          <div data-aos="fade-right">
+              <div class="we-do-title">
+                  <div> COMIDA
+                  </div>
+              </div>
+              <div class="we-do-sub">
+                  <div>
+                      <p>y Postre</p>
+                  </div>
+              </div>
+              <div class="we-do-time">
+                  <div>
+                      <p style="margin-top: -135px;">22:00</p>
+                  </div>
+              </div>
+          </div>
+          <div data-aos="fade-left" class="we-do-img we-do-image1">
+              <img class='we-do-image' src="./img/pan.svg" alt="">
+          </div>
+      </div>
+      <div data-aos="fade-left" class="we-do we-do-3">
+          <div data-aos="fade-left">
+              <div class="we-do-title we-do-title3">
+                  <div>
+                      <p style="margin-top: -91px;">¡ole!</p>
+                  </div>
+              </div>
+              <div class="we-do-sub we-do-sub2" style="text-align: left">
+                  <div>
+                      <p style="margin-top: 64px;">bailar.bailar <br> y bailar</p>
+                  </div>
+              </div>
+              <div class="we-do-time we-do-time2">
+                  <div>
+                      <p style="margin-top: -170px;">01:00</p>
+                  </div>
+              </div>
+          </div>
+          <div data-aos="fade-right" class="we-do-img">
+              <img class='we-do-image we-do-image2' src="./img/music.svg" alt="">
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Linea separadora de contenido -->
+<div class="lineaSeparadora">
+  <div data-aos="fade-down" data-aos-duration="1000">
+    <img class="imageCapa" src="./img/line.png" alt="" style="width: 250px; height: auto;">
+  </div>
+</div>
+
+
+
+<!-- Como puedo llegar -->
+
+<div class="comoLlegar">
+    <div data-aos="fade-up" class="comollegartitulo">
+        <div>
+            <p>¿Cómo puedo llegar?</p>
+        </div>
+    </div>
+    <div id="imageContainer" class="image-container">
+        <div class="arrow-left" onclick="changeContent(-1)">&#9665;</div>
+        <img id="img1" class="imagen-destacada selected" src="./img/iglesia.png"
+            alt="Imagen 1">
+        <img id="img2" class="imagen-destacada" src="./img/bus.png" alt="Imagen 2">
+        <img id="img3" class="imagen-destacada" src="./img/salud.png" alt="Imagen 3">
+        
+        <div class="arrow-right" onclick="changeContent(1)">&#9655;</div>
+    <div id="content1" class="content" style="display:block">
+        <br>
+        <div data-aos="fade-down">
+            <img class='img-fluid' src="./imagenesnovios/iglesia.jpeg" alt="">
+            <br>
+            <br><br>
+            Ver en Google Maps <br><br>
+            <a href="https://maps.app.goo.gl/JiZrTLDqXmRoQfpUA?g_st=ipc">
+                <img src="./img/localizacion.png" alt="Descripción de la imagen"
+                    width="30">
+            </a>
+        </div>
+    </div>
+    <div id="content2" class="content">
+        <br>
+        <div data-aos="fade-down">
+            <img class='img-fluid' src="./imagenesnovios/horarios.jpg" alt="">
+            <br>
+            <br><br>
+            Ver en Google Maps <br><br>
+            <a href="https://maps.app.goo.gl/nvmrexyLhrVmn8qS9?g_st=ipc">
+                <img src="./img/localizacion.png" alt="Descripción de la imagen"
+                    width="30">
+            </a>
+        </div>
+    </div>
+    <div id="content3" class="content" data-aos="zoom-in">
+        <div data-aos="fade-up" class="map-ggl aos-init aos-animate">
+            <img class='img-fluid' src="./imagenesnovios/Jabega.jpeg" alt="">
+            <br>
+            <br><br>
+            Ver en Google Maps <br><br>
+            <a href="https://maps.app.goo.gl/mTFxRdWgQGkJbP7i8?g_st=ipc">
+                <img src="./img/localizacion.png" alt="Descripción de la imagen"
+                    width="30"></a>
+        </div>
+    </div>
+    
+</div>
+</div>
+
+<!-- Linea separadora de contenido -->
+<div class="lineaSeparadora">
+    <div data-aos="fade-down" data-aos-duration="1000">
+      <img class="imageCapa" src="./img/line.png" alt="" style="width: 250px; height: auto;">
+    </div>
+  </div>
+  
+<!-- Cuenta atras-->
+
+<div data-aos="fade-up" class="date">
+    <div data-aos="fade-up" class="date-title">
+        <div>
+            <p>Cuenta atrás</p>
+        </div>
+    </div>
+    <div class="count">
+        <div data-aos="fade-up" data-aos-delay="300" class="timer-block">
+            <span id='days'>220</span>
+            <div>dias</div>
+        </div>
+        <div data-aos="fade-up" data-aos-delay="600" class="timer-block">
+            <span id='hours'>50</span>
+            <div>horas</div>
+        </div>
+        <div data-aos="fade-up" data-aos-delay="900" class="timer-block">
+            <span id='minutes'>20</span>
+            <div>min</div>
+        </div>
+        <div data-aos="fade-up" data-aos-delay="1200" class="timer-block">
+            <span id='seconds'>35</span>
+            <div>seg</div>
+        </div>
+    </div>
+</div>
+
+<!-- telegram-->
+<div class="telegram">
+    <div data-aos="fade-up" class="titulotelegram">
+        <div> Nos conocimos una noche cualquiera
+        </div>
+    </div>
+
+    <div data-aos="fade-up" class="map-text">
+        <div> Lo que no sabíamos es que esa noche cambiaría nuestras vidas para siempre.<br><br>
+Al principio, todo fue casual, como esas historias que uno no se espera.<br><br>
+
+Nos fuimos conociendo poco a poco, sin prisa, con sus vueltas... y también con sus decisiones difíciles. Pero al final, el corazón manda, y aquí estamos. 
+            </b>
+        </div>
+    </div>
+</div>
+    
+<!-- Fotos con reflexion 01-->
+ <div class="reflexion">
+    
+    <div data-aos="fade-down">
+        <img src="./imagenesnovios/hashimage3.jpg" alt="" style="    width: 100%;">
+    </div>
+    <div data-aos="fade-up" class="reflexiontexto" >
+        <div> Ya han pasado ocho años desde entonces.<br><br>
+
+Ocho años en los que hemos compartido aventuras, aprendizajes, una convivencia que comenzó hace unos años, y una familia que tiene cuatro patas y se llama Rocco.<br><br>
+
+El compromiso llegó en nuestro séptimo aniversario, en el mismo lugar donde hicimos nuestro primer viaje juntos:
+Granada. Un sitio que desde entonces forma parte de nuestra historia... y de nuestro corazón.  <br><br>
+
+Ahora ha llegado el momento de dar un paso más.<br><br>
+
+Nos casamos, y queremos compartir ese día con quienes han estado a nuestro lado en este camino: vosotros.
+        </div>
+    </div>
+</div>
+<div class="reflexionimagen">
+    <div data-aos="fade-right" data-aos-delay="300" class="numbers-date aos-init aos-animate">
+    </div>
+    <div>
+        <div data-aos="fade-left" class="num-photo1">
+            <img class='num-img1' src="./imagenesnovios/couple1.jpg" alt="">
+        </div>
+
+        <div data-aos="fade-right" class="num-photo2">
+            <img class='num-img2' src="./imagenesnovios/couple3.jpg" alt="">
+        </div>
+
+        
+    </div>
+</div>
+
+<!-- formulario de asistencia-->
+
+<div class="formulario">
+
+
+    <div data-aos="fade-up" class="formulariotitulo">
+        <div>
+            <p>Se ruega confirmación antes del 30 de marzo de 2026</p>
+            
+        </div>
+    </div><br><br>
+    <p>Rellena el formulario para confirmar asistencia.</p>
+
+
+
+    <form class='red-form' id='red-form' name="formName">
+
+        <div class='input-holder'>
+            <input name='Nombre' id='name' class='form-input' type="text" placeholder="Nombre">
+        </div>
+
+        <div class='input-holder'>
+            <input name='Apellidos' id='Apellido' class='form-input' type="text" placeholder="Apellido">
+        </div>
+
+        <div class="input-confirm">
+
+            <div class="confirm-title">
+                ¿Vienes acompañado/a?
+            </div>
+
+            <div class="confirm-radio">
+                <input class='radio-btn custom-radio' name='Acompanado' id='ire' type="radio" value='Si'
+                    checked>
+                <label for="ire">Si</label>
+            </div>
+
+            <div class="confirm-radio">
+                <input class='radio-btn custom-radio' name='Acompanado' value='No' id='puedo'
+                    type="radio">
+                <label for="puedo">No</label>
+            </div>
+        </div>
+        <br>
+
+    
+        <div class="questions">
+            <div class='quest-holder'>
+                <div class="questions-title">
+                    ¿Cuantos acompañantes?
+                </div>
+
+                <div class='input-holder'>
+                    <input id='company' name='Company' class='form-input' type="text"
+                        placeholder="Utilizar sólo números">
+                </div>
+            </div>
+
+            <div class="input-confirm">
+
+                <div class="confirm-title">
+                    ¿Necesitan Bus?
+                </div>
+
+                <div class="confirm-radio">
+                    <input class='radio-btn custom-radio' name='Bus' id='ire2' type="radio" value='Si'
+                        checked>
+                    <label for="ire2">Si</label>
+                </div>
+
+                <div class="confirm-radio">
+                    <input class='radio-btn custom-radio' name='Bus' value='No ' id='puedo2'
+                        type="radio">
+                    <label for="puedo2">No</label>
+                </div>
+            </div>
+            <br>
+
+
+            <div class='quest-holder'>
+                <div class="questions-title">
+                    ¿Tienes alguna alergia o intolerancia?
+                </div>
+
+                <div class='input-holder'>
+                    <input id='alergia' name='Alergia' class='form-input' type="text" placeholder="Texto">
+                </div>
+            </div>
+
+
+            <div class='quest-holder'>
+                <div class="questions-title">
+                    Para cualquier cosa más:
+                </div>
+
+                <div class='input-holder'>
+                    <textarea id='otro' placeholder="Sugerencia de cancion, Otros..." name='Otro' type="text" style='
+                width: 100%;
+                border-radius: 3px;
+                height: 150px;
+                border-width: 1px;
+                '></textarea>
+                </div>
+            </div>
+            <div class="button">
+                <button class='btn' type='submit'>Enviar</button>
+            </div>
+    </form>
+</div>
+
+<!-- Linea separadora de contenido -->
+<div class="lineaSeparadora">
+    <div data-aos="fade-down" data-aos-duration="1000">
+      <img class="imageCapa" src="./img/line.png" alt="" style="width: 250px; height: auto;">
+    </div>
+  </div>
+
+ <!-- contacto -->
+  
+ <div data-aos="fade-down" class="contactotitulo">
+    <div>
+        <p>Contacto</p>
+    </div>
+</div>
+<br><br>
+    <div data-aos="fade-down">
+        <br><center><img src="./imagenesnovios/Contacto.png" alt="" style="width: 220px; height: auto;"></center>
+        
+    </div>
+    <br>
+    <div data-aos="fade-up" class="contactotexto">
+        <b>Rodrigo</b> <br>
+        +34 647 249 101<br>
+        <b>Lucía</b><br>
+        +34 600 351 228<br>
+    </div>
+
+    <!-- Linea separadora de contenido -->
+<div class="lineaSeparadora">
+    <div data-aos="fade-down" data-aos-duration="1000">
+      <img class="imageCapa" src="./img/line.png" alt="" style="width: 250px; height: auto;">
+    </div>
+  </div>
+
+
+
+
+<!-- Despedida -->
+<div class="footer">
+    Esperamos verte en la boda <br> Con amor
+</div>
+
+<div class="footernombres">
+    Rodrigo y Lucía
+</div>
+&nbsp
+
+
+  <!-- Animacion con scroll -->
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script> 
+
+  <!-- Animacion con scroll -->
+   <script> 
+    AOS.init();
+  </script>
+<!-- Como Llegar-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+<script src="./js/comollegar.js"></script>
+
+<!-- Cuenta atras -->
+<script src="./js/cuentaatras.js"></script>
+
+<!-- Formulario de asistencia -->
+<script src="./js/formulario.js"></script>
+<!-- Copiar numero de cuenta -->
+<script src="./js/copiarnumerocuenta.js"></script>
+<!-- Musica -->
+<script src="./js/musica.js"></script>
+</body>
+</html>
+ 
