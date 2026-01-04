@@ -12,7 +12,7 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbzGWO3ws8GpAqy6hNfDEB
                         .catch(error => console.error('Error!', error.message));
             
                     // Segunda solicitud fetch
-                    fetch('https://ntfy.sh/bodapatriciayjesus', {
+                    fetch('https://ntfy.sh/rodrigoylucia', {
                         method: 'POST',
                         body: 'Nueva confirmacion en la boda 😀'
                     })
